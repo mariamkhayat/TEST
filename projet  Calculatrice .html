@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style></style>
+    <style>
+       *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            max-width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: sans-serif;
+        }
+        .calcul{
+            background-color: gray;
+            display: flex;
+            flex-direction: column;
+            border: 2px solid;
+            border: transparent;
+            margin: 10px;
+            padding: 10px;
+            width: 290px;
+            height: 350px;
+
+        }
+        .ecran{
+            width: 100%;
+            height: 100px;
+            background-color: beige;
+            margin-bottom: 10px;
+            border-radius: 6px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            padding: 7px;
+            font-size: 25px;
+        }
+        .btn{
+            width: 60px;
+            height: 27px;
+            font: 60;
+            margin: 2px;
+            padding: 3px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: aqua;
+            border-radius: 3px;
+            font-size: 16px;
+        }
+        .c:hover{
+            background-color: orange; 
+        }
+        /* h1{
+            font-weight: 900;
+            margin-top: 0;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        } */
+
+
+    </style>
+    <script>
+        
+    </script>
+</head>
+<body>
+    <!-- <h1>Calculatrice JavaScript [Realisée par: <span id="nom">Mariam Khayat</span> ]</h1>
+	<br><br> -->
+    <div class="calcul">
+        <form action="" name="form">
+            <input type="text" class="" id="ecran">
+        </form>
+        <table>
+            <tr>
+                <td><input class="btn c" type="button" value="CE" id="c"></td>
+                <td><input class="btn" type="button" value="C" id="clear"></td>
+                <td><input class="btn" type="button" value="("></td>
+                <td><input class="btn" type="button" value=")"></td>
+            </tr>
+            <tr>
+                <td><input class="btn" type="button" value="cos("></td>
+                <td><input class="btn" type="button" value="sin("></td>
+                <td><input class="btn" type="button" value="tan("></td>
+                <td><input class="btn" type="button" value="sqrt("></td>
+            </tr>
+            <tr>
+                <td><input class="btn nomber" type="button" value="7"></td>
+                <td><input class="btn nomber" type="button" value="8"></td>
+                <td><input class="btn nomber" type="button" value="9"></td>
+                <td><input class="btn" type="button" value="%"></td>
+            </tr>
+            <tr>
+                <td><input class="btn nomber" type="button"value="4"></td>
+                <td><input class="btn nomber" type="button" value="5"></td>
+                <td><input class="btn nomber" type="button" value="6"></td>
+                <td><input class="btn" type="button" value="/"></td>
+            </tr>
+            <tr>
+                <td><input class="btn nomber" type="button" value="1"></td>
+                <td><input class="btn nomber" type="button" value="2"></td>
+                <td><input class="btn nomber" type="button" value="3"></td>
+                <td><input class="btn" type="button" value="*"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input class="btn" type="button" value="0" style="width: 100%;" ></td>
+                <td><input class="btn" type="button" value="-"></td>
+                <td><input class="btn" type="button" value="+"></td>
+                
+            </tr>
+            <tr>
+                <td colspan="3"><input class="btn c" type="button" value="=" id="egal" style="width: 100%;"></td>
+                <td><input class="btn" type="button" value="." ></td>
+                
+                
+            </tr>
+        </table>
+    </div>    
+</body>
+</html>
